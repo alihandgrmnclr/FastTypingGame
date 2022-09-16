@@ -1,5 +1,5 @@
 
-const RandomTextApi = 'http://api.quotable.io/random';
+const RandomTextApi = 'https://api.quotable.io/random';
 const textOutput = document.querySelector("#textOutput");
 const textInput = document.querySelector("#textInput");
 const countDownTimer = document.querySelector("#countDownTimer");  

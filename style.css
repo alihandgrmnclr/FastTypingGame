@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#textArea {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textInput {
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.container {
+    width: 50%;
+    height: 40vh;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn27 {
+    background-image: linear-gradient(
+      to right,
+      #ed6ea0,
+      #ec8c69,
+      #f7186a,
+      #fbb03b
+    );
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
